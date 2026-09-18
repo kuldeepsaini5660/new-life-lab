@@ -1,6 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import ownerPhoto from "./assets/lkg.png";
-
+import ownerPhoto from "./lkg.png";
 /* ==========================================================
    NEW LIFE LAB — React version
    WhatsApp number badalna ho to niche WA_NUMBER change karein
