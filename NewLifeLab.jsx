@@ -391,7 +391,7 @@ function HomePage({ go, bookPackage }) {
             <div className="owner-photo">
               <img
                 src="/lkg.png"
-                alt="Lokesh Saini, Owner of New Life Lab"
+                alt="Owner"
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                   const icon = e.currentTarget.parentElement.querySelector(".ph-icon");
