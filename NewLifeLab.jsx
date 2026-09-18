@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import ownerPhoto from "./lkg.png";
+// import ownerPhoto from "./lkg.png";
 /* ==========================================================
    NEW LIFE LAB — React version
    WhatsApp number badalna ho to niche WA_NUMBER change karein
@@ -390,7 +390,7 @@ function HomePage({ go, bookPackage }) {
           <div className="owner-wrap mt-24">
             <div className="owner-photo">
               <img
-                src={ownerPhoto}
+                src="/lkg.png"
                 alt="Lokesh Saini, Owner of New Life Lab"
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
